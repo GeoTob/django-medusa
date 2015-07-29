@@ -1,4 +1,5 @@
-# django-medusa
+# django-medusr
+## Fork of django-medusa to continue rendering on HTTP errors or redirects
 
 Allows rendering a Django-powered website into a static website a la *Jekyll*,
 *Movable Type*, or other static page generation CMSes or frameworks.
@@ -11,15 +12,9 @@ Given a "renderer" that defines a set of URLs (see below), this uses Django's
 built-in `TestClient` to render out those views to either disk, Amazon S3,
 or to Google App Engine.
 
-At the moment, this likely does not scale to extremely large websites.
-
 Optionally utilizes the `multiprocessing` library to speed up the rendering
 process by rendering many views at once.
 
-**For those uninterested in the nitty-gritty**, there are tutorials/examples
-in the `docs` dir:
-
-* [Tutorial 1: Hello World](https://github.com/mtigas/django-medusa/blob/master/docs/TUTORIAL-01.markdown)
 
 ## Renderer classes
 
@@ -191,4 +186,3 @@ disk-based backend.
     /project_dir/var/html/index.html
     /project_dir/var/html/about/index.html
     /project_dir/var/html/sitemap.xml
-
