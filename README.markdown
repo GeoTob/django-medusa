@@ -1,4 +1,4 @@
-# django-medusr
+# django-medusa-unstoppable
 ## Fork of django-medusa to continue rendering on HTTP errors or redirects
 
 Allows rendering a Django-powered website into a static website a la *Jekyll*,
