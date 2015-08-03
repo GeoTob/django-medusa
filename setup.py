@@ -4,15 +4,15 @@ install_requires = [
     'django',
 ]
 
-version = "0.3.0"
+version = "0.3.1"
 
-setup(name='django-medusa',
+setup(name='django-medusa-unstoppable',
     version=version,
-    description='A Django static website generator.',
-    author='Mike Tigas', # update this as needed
-    author_email='mike@tig.as', # update this as needed
-    url='https://github.com/mtigas/django-medusa/',
-    download_url='https://github.com/mtigas/django-medusa/releases/tag/v0.3.0',
+    description='A Django static website generator. Fork of django-medusa',
+    author='Tobias Schulmann', # update this as needed
+    author_email='tobiasschulmann@catalyst.net.nz', # update this as needed
+    url='https://github.com/GeoTob/django-medusa-unstoppable',
+    download_url='https://github.com/GeoTob/django-medusa-unstoppable/releases/tag/0.3.1',
     packages=find_packages(),
     install_requires=install_requires,
     license='MIT',
